@@ -15,6 +15,11 @@ const connect = () => {
     console.log(data);        //log incoming data to console
   });
 
+  conn.on('connect', () => {
+    console.log('sucessfully connected. all ur snek r belong to us.');  //tell user when connected to server
+    conn.write('Name: bwz');    
+  });
+
   return conn;
 };
 
