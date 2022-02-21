@@ -17,9 +17,9 @@ const connect = () => {
 
   conn.on('connect', () => {    //register and execute the following callbacks once connection is established
     console.log('sucessfully connected. all ur snek r belong to us.');  //tell user when connected to server
-    conn.write('Name: bwz');
+    conn.write('Name: sbl');
   
-    const snekMove = (a, b, c) => {   //callback function to pass to setInterval (janky but works)
+    const snekMove = (a, b, c) => {   //callback function to pass to setInterval (janky but mostly works)
       conn.write(a);
       conn.write(b);
       conn.write(c);
