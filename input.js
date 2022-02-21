@@ -22,8 +22,15 @@ const handleUserInput = (data) => {
     };
 
     if (data === '\u0077') {
-    //   console.log("you hit w, move up!");
       connection.write('Move: up');
+    };
+
+    if (data === '\u006F') {
+      connection.write('Say: sssssss!');
+    };
+
+    if (data === '\u0070') {
+      connection.write('Say: my precioussss');
     };
   }
 
