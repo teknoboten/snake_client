@@ -1,12 +1,13 @@
 const net = require('net'); //node's net module
+const { IP, PORT } = require('./constants');
 
 const connect = () => {
 //when called, creates new connection to the server
 //use ctrl+c to terminate
 
   const conn = net.createConnection({
-    host: "10.0.2.15",
-    port: 50541
+    host: IP,
+    port: PORT
   });
 
   conn.setEncoding('utf8');   //interpret incoming data as text
@@ -19,14 +20,6 @@ const connect = () => {
     console.log('sucessfully connected. all ur snek r belong to us.');  //tell user when connected to server
     conn.write('Name: sbl');
   
-    // const snekMove = (a, b, c) => {   //callback function to pass to setInterval (janky but mostly works)
-    //   conn.write(a);
-    //   conn.write(b);
-    //   conn.write(c);
-    // };
-
-    // setInterval(snekMove, 500, 'Move: up', 'Move: left', 'Move: left');
-
   });
 
   return conn;

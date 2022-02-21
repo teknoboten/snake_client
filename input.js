@@ -1,3 +1,5 @@
+const { KEYMAPPINGS } = require('./constants');
+
 let connection;
 
 const handleUserInput = (data) => {
@@ -8,30 +10,12 @@ const handleUserInput = (data) => {
       process.exit();
     };
 
-//use the connection variable to send movement commands to the server
-    if (data === '\u0061') {
-      connection.write('Move: left');
+//use connection object to send commands to the server
+//if a mapping exists, send the value
+    if (KEYMAPPINGS[data]){
+      connection.write(KEYMAPPINGS[data]);
     };
-
-    if (data === '\u0073') {
-      connection.write('Move: down');
-    };
-
-    if (data === '\u0064') {
-      connection.write('Move: right');
-    };
-
-    if (data === '\u0077') {
-      connection.write('Move: up');
-    };
-
-    if (data === '\u006F') {
-      connection.write('Say: sssssss!');
-    };
-
-    if (data === '\u0070') {
-      connection.write('Say: my precioussss');
-    };
+   
   }
 
   
