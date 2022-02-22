@@ -1,11 +1,6 @@
 # sneks! 🐍🐍🐍
 
-<<<<<<< HEAD
-sneks is client for snek - a *multiplayer* terminal adaptation of the classic game, snake, written in javascript. 
-=======
-this is a client for snek - a *multiplayer* terminal adaptation of the classic game, snake', written in javascript. 
->>>>>>> 2a935c6fa3d57cfd34a1c4d186a8fa35bab2583c
-
+sneks a client for snek: the *multiplayer* terminal adaptation of the classic game, **snake**, written in javascript. 
 
 ![snekss](https://user-images.githubusercontent.com/7389356/155228807-069d242c-7cb1-4181-b2cc-f676a91f2962.gif)
 
@@ -13,7 +8,7 @@ this is a client for snek - a *multiplayer* terminal adaptation of the classic g
 
 # getting started
 
-first, you will first need to download and run the server locally:
+download and run the server locally:
 
 ```
 serra@sanserif ✨ git clone https://github.com/lighthouse-labs/snek-multiplayer.git snek-multiplayer
@@ -36,6 +31,7 @@ serra@sanserif ✨ node play.js
   - move your snek using the *w, a, s,* and *d* keys 
   - use *o* and *p* to taunt the other sneks 
   - eat the food
+  - increase your snek power
   - don't get ded
 
 your snek will die if it crashes into itself, a wall, or another snek. when you have completed all your sneking, use *ctrl+c* to quit.
