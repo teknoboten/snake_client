@@ -1,8 +1,7 @@
-const IP = "10.0.2.15";
+const IP = "10.0.2.15";   //will add feature to automatically set this
 const PORT = 50541;
 
-//create an object to handle key mappings
-
+//key mappings object for snek movement and mild smek talk
 const KEYMAPPINGS = {
 
   a: "Move: left",
@@ -11,7 +10,7 @@ const KEYMAPPINGS = {
   w: "Move: up",
   o: "Say: ssssss!",
   p: "Say: my precioussss",
-  
+
 };
 
 
