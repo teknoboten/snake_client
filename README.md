@@ -54,9 +54,9 @@ some features we plan to add in the near future:
 
 
 # author
-sneks! was written by serra boten as an assignment for the (lighthouse labs)[https://github.com/lighthouse-labs] web development bootcamp. 
+sneks! was written by serra boten as an assignment for the [lighthouse labs](https://github.com/lighthouse-labs) web development bootcamp. 
 
 
 # credit 
-snek-multiplayer (the server) is a heavily modified version of (tania rascia's snek game)[https://github.com/taniarascia/snek].
+snek-multiplayer (the server) is a heavily modified version of [tania rascia's snek game](https://github.com/taniarascia/snek).
  
