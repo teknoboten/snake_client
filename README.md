@@ -1,13 +1,9 @@
 # sneks! 🐍
 
-this is a client for snek - a *multiplayer* terminal adaptation of the classic game, 'snake', written in javascript. 
+this is a client for snek - a *multiplayer* terminal adaptation of the classic game, snake', written in javascript. 
 
-!["screenshot description"](#)
-!["screenshot description"](#)
-<!-- 
 
-![](./Screenshot/filename.ext)
-.ext could be .png/.jpg etc -->
+![snekss](https://user-images.githubusercontent.com/7389356/155228807-069d242c-7cb1-4181-b2cc-f676a91f2962.gif)
 
 
 
