@@ -20,7 +20,7 @@ const connect = () => {
 
   conn.on('connect', () => {    //register and execute the following callbacks once connection is established
     console.log('sucessfully connected. all ur snek r belong to us.');  //tell user when connected to server
-    conn.write('Name: sbl');
+    conn.write('Name: snk');
   
   });
 
