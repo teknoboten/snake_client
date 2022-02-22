@@ -40,17 +40,17 @@ your snek will die if it crashes into itself, a wall, or another snek. when you 
 
 # upcoming features 
 
-some features we plan to add in the near future include:
+some features we plan to add in the near future:
 
   - prompt user for name upon login
-  - support for automatic ip detection 
-  - randomize snarky snek comments
+  - automatic ip detection 
+  - add additional and randomize snarky snek comments
 
 
 # known issues 
 
-  - hard coded ip settings in constants.js
-  - score currently not displaying properly
+  - hard coded ip/port makes multisneking difficult
+
 
 
 # author
