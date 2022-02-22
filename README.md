@@ -1,13 +1,13 @@
 # sneks! 🐍🐍🐍
 
+<<<<<<< HEAD
 sneks is client for snek - a *multiplayer* terminal adaptation of the classic game, snake, written in javascript. 
+=======
+this is a client for snek - a *multiplayer* terminal adaptation of the classic game, snake', written in javascript. 
+>>>>>>> 2a935c6fa3d57cfd34a1c4d186a8fa35bab2583c
 
-!["screenshot description"](#)
-!["screenshot description"](#)
-<!-- 
 
-![](./Screenshot/filename.ext)
-.ext could be .png/.jpg etc -->
+![snekss](https://user-images.githubusercontent.com/7389356/155228807-069d242c-7cb1-4181-b2cc-f676a91f2962.gif)
 
 
 
